@@ -13,7 +13,7 @@ This is a React-based comment system that allows users to **add, delete, and rep
 ## Project Structure
 
 ```
- comment-app/
+17427447 (autarc-task)/
 ├── public/
 │   └── index.html
 ├── src/
@@ -44,7 +44,8 @@ This is a React-based comment system that allows users to **add, delete, and rep
 
    ```bash
    git clone https://github.com/wasssim1/17427447.git
-   cd comment-app
+   
+   cd 17427447
    ```
 
 2. **Install Dependencies**
@@ -53,7 +54,18 @@ This is a React-based comment system that allows users to **add, delete, and rep
    yarn install
    ```
 
-3. **Run the development server**
+3. **Run in development mode**
+
    ```bash
    yarn start
+   ```
+
+4. **Build and Run in production mode**
+
+   ```bash
+   yarn build
+   
+   npm i -g serve
+   
+   serve -s build
    ```
