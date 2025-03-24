@@ -2,7 +2,7 @@
 
 This is a React-based comment system that allows users to **add, delete, and reply to comments** with **nested support** and **local persistence** using **RxDB**.
 
-## 🚀 Features
+## Features
 
 - **Add Comments:** Type a comment and post it.
 - **Delete Comments:** Remove unwanted comments.
@@ -49,7 +49,7 @@ This is a React-based comment system that allows users to **add, delete, and rep
 └── yarn.lock
 ```
 
-## 🛠️ Setup & Installation
+## Setup & Installation
 
 1. **Clone the Repository**
 
