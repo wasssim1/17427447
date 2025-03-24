@@ -14,28 +14,39 @@ This is a React-based comment system that allows users to **add, delete, and rep
 
 ```
 17427447 (autarc-task)/
+├── e2e/
+│   └── commentApp.spec.js
 ├── public/
 │   └── index.html
 ├── src/
 │   ├── components/
+│   │   ├── CommentForm.test.tsx
 │   │   ├── CommentForm.tsx
+│   │   ├── CommentItem.test.tsx
 │   │   ├── CommentItem.tsx
+│   │   └── CommentList.test.tsx
 │   │   └── CommentList.tsx
 │   ├── database/
 │   │   └── db.ts
 │   ├── hooks/
+│   │   └── useComments.test.ts
 │   │   └── useComments.ts
 │   ├── pages/
+│   │   └── Home.test.tsx
 │   │   └── Home.tsx
 │   ├── types/
 │   │   └── index.ts
+│   ├── App.test.tsx
 │   ├── App.tsx
 │   ├── index.tsx
 │   ├── setupTests.ts
 │   └── styles.css
+├── cypress.config.ts
+├── jest.config.js
 ├── package.json
 ├── README.md
-└── tsconfig.json
+├── tsconfig.json
+└── yarn.lock
 ```
 
 ## 🛠️ Setup & Installation
